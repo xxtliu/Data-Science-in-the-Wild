@@ -1,13 +1,13 @@
 In the ZIP document there are two folders: wordcount and bigram.
 In each folder there are my py code, originral txt document, and the output folder.
 
-## Because it is running in a folder which contains both xxx.py and wiki.txt, the command below can be used to run:
+# Because it is running in a folder which contains both xxx.py and wiki.txt, the command below can be used to run:
 
 spark-submit ./wordcount.py ./wiki.txt ./output ##
 
-## Please make sure there are no output folder created before running the command above(remove the output folder before you run).
+# Please make sure there are no output folder created before running the command above(remove the output folder before you run).
 
-## Interpretation of the output (document named 'part-00000'):
+# Interpretation of the output (document named 'part-00000'):
 
 1)For the wordcount: 
 e.g.
