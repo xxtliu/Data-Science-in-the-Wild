@@ -3,7 +3,7 @@ In each folder there are my py code, originral txt document, and the output fold
 
 **Because it is running in a folder which contains both xxx.py and wiki.txt, the command below can be used to run:**
 ```
-spark-submit ./wordcount.py ./wiki.txt ./output ##
+spark-submit ./wordcount.py ./wiki.txt ./output 
 ```
 **Please make sure there are no output folder created before running the command above(remove the output folder before you run).**
 
